@@ -53,6 +53,9 @@ body {
 #nav img {
   height: 100px;
 }
+#nleft img{
+  border-radius: 50%;
+}
 #nleft,
 #nright {
   display: flex;
