@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "kajiro";
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#main {
+  width: 100%;
+  height: 100vh;
+  /* background-color: black; */
+}
+#back {
+  width: 100%;
+  height: 100vh;
+  /* background-color: red; */
+}
+#back img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#top {
+    pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  /* background-color: #99999938; */
+}
+#workingArea {
+  margin: 0 auto;
+  position: relative;
+  width: 80%;
+  max-width: 1920px;
+  /* background-color: grey; */
+  /* border: 1px solid black; */
+  height: 100vh;
+}
+#nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  pad: 40px 0;
+}
+#nav img {
+  height: 100px;
+}
+#nleft,
+#nright {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+#nav a {
+    pointer-events: all;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  /* letter-spacing: 1px; */
+  color: #fff;
+  font-family: "gilroy";
+}
+#hero {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  transform: translate(0%, -50%);
+
+  /* height: 100px; */
+  /* background-color: black; */
+}
+#hero #heroleft {
+  min-width: 50%;
+  /* height: 100px; */
+  /* background-color: yellow; */
+}
+#heroleft .elem {
+  /* height: 7vw;s */
+  height: 9vw;
+  overflow: hidden;
+  position: relative;
+}
+#heroleft .elem h1:nth-child(1){
+    top: 0;
+}
+#heroleft .elem h1 {
+  line-height: 1;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  font-family: "kajiro";
+  font-weight: 100;
+  /* font-size: 7vw; */
+  font-size: 11vw;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+#heroleft button {
+  padding: 0.8vw 3vw;
+  font-size: 2vw;
+  margin-top: 2vw;
+  pointer-events: all;
+}
+#heroright {
+  width: 17%;
+  color: #fff;
+  /* background-color: green; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+#heroright p{
+    font-size: 12px;
+    text-align: right;
+    font-weight: 300;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#heroright #imageDiv {
+    width: 100%;
+    height: 130px;
+    /* background-color: black; */
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5X-MoWECTU75Y_80uRCiTKf4UWQqrPLRA1A&usqp=CAU);
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#heroright p:nth-child(3){
+    margin-bottom: 100px;
+}
