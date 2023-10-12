@@ -92,6 +92,7 @@ body {
 #heroleft .elem {
   /* height: 7vw;s */
   height: 9vw;
+  top:10px;
   overflow: hidden;
   position: relative;
 }
